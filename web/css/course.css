@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.baner{
+    padding-top: 50px;
+    height: fit-content;
+    width: auto;
+    background:forestgreen;
+}
+
+.baner-content {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baner-text {
+    font-family: arial;
+    font-size: 1.3em;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.baner-content p:last-child {
+    position: unset;
+
+}
+
+.baner-content p:last-child::after{
+    display: none;
+}
+
+.course-info{
+    /* height: 1200px;  */
+    width: 1200px; 
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-align:center; 
+    text-decoration:underline;
+    margin-top: 50px;
+}
+
+
+
+
+
+.item{
+    width: 380px;
+    height: 550px;
+    margin: 16px 10px;
+    font-size: 20px;
+    color: #124121;
+    text-align: center;
+    /* min-height: 380px;
+    line-height: 380px; */
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.test p{
+    color: black;
+}
+
+.info-content{
+    margin:10px 20px;
+    height: 250px;
+    font-size: 30px;
+}
